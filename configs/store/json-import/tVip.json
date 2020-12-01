@@ -1,0 +1,30 @@
+﻿{
+	"type": "tVip",
+	"categories": [
+			{
+					"display_name": "VIP",
+					"description": "Buy VIP for a limited time.",
+					"require_plugin": "tVip",
+					"web_description": null,
+					"web_color": "A90000",
+					"items": [
+					{
+						"name": "tVip_one_day",
+						"display_name": "One day VIP",
+						"description": "Get VIP for one day.",
+						"web_description": "Get VIP for one day.",
+						"type": "tVip",
+						"price": "500",
+						"attrs": {
+							"duration": "1",
+							"format": "1"
+						},
+						"is_buyable": "1",
+						"is_tradeable": "1",
+						"is_refundable": "1",
+						"expiry_time": null
+					}
+					]
+			}
+	]
+}
