@@ -92,6 +92,6 @@ public Store_ItemUseAction tVipUseCallback(int client, int itemId, bool equipped
 	int iDuration, iFormat;
 	iDuration = StringToInt(tVipDuration);
 	iFormat = StringToInt(tVipFormat);
-	tVip_GrantVip(client, 0, iDuration, iFormat);
+	tVip_GrantVip(client, client, iDuration, iFormat);
 	return Store_DeleteItem;
 }
