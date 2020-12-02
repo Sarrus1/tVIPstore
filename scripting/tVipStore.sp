@@ -83,10 +83,10 @@ public Store_ItemUseAction tVipUseCallback(int client, int itemId, bool equipped
 		return Store_DoNothing;
 	}
 
-	char tVipDuration[4];
+	char tVipDuration[16];
 	strcopy(tVipDuration, sizeof(tVipDuration), g_tVipItems[itVipItem][tVipItemDuration]);
 
-	char tVipFormat[4];
+	char tVipFormat[16];
 	strcopy(tVipFormat, sizeof(tVipFormat), g_tVipItems[itVipItem][tVipItemFormat]);
 
 	int iDuration, iFormat;
